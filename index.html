@@ -6,37 +6,197 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anish's Portfolio</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="logo">
-            <h1>
-                <a href="index.html">AG</a>
-        </div>
-        <nav class = "links">
-            <a href="aboutme.html">About me</a>
-            <a href="/images/AnishGhimire_Resume.pdf" target="_blank">Resume</a>
-            <a href="experiences.html">Experiences</a>
-            <a href="myworks.html">My Works</a>
-        </nav>
-    </header>
-    
-    <main class = "index_mainBody">
-        <div class = "small_header">Hi, My name is</div>
-        <hr>
-        <div class = "name">Anish Ghimire</div>
-        <hr>
-        <div class = "description">I am a recent undergrad from the Ohio State University
-            with a Bachelor of Science in Geographic Information
-            Science <br> and currently enrolled in We Can Code
-            It bootcamp.</div>
-    </main>
+    <nav class="toplinks">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#experience">EXPERIENCES</a></li>
+            <li><a href="#project">PROJECTS</a></li>
+            <li><a href="#contact">CONTACTS</a></li>
+        </ul>
+    </nav>
+
+    <nav class = "resume">
+        <a href="www.youtube.com" target = "blank">RESUME</a>
+    </nav>
+
+    <nav class = sidebars>
+        <ul>
+            <li><a href="https://github.com/anishgh94" target = "blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/anishghimire94/" target = "blank"><i class="fa fa-linkedin"></i></a></li>
+            
+        </ul>
+    </nav>
 
 
+    <!-- <div class="socialLogo">
+        <i class="fa fa-github"></i>
+        <i class="fa fa-linkedin"></i>
+    </div> -->
+
+
+
+    <div class="container">
+
+        <section class="home" id="home">
+            <div class="placeholder"></div>
+            <h1>Home</h1>
+            <div class="home_sub_bodies">
+                <div class="texts">
+                    <p4>Hi, I'm</p4>
+                    <p5>Anish Ghimire</p5>
+                    <p6>Full Stack Software Developer</p6>
+                    </p>
+                </div>
+
+                <div class="picture">
+                    <img src="images/myPicture.jpg" alt="myPicture">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+            <div class="placeholder"></div>
+            <h1>About Me</h1>
+            <div class="aboutme_sub_bodies">
+                <p>My journey into the computer world started when I took a simple hardware course back in my home
+                    country Nepal.
+                    Ever since that time, I have always wanted to work with computers. I'm passionate about learning new
+                    tools and
+                    applying what I learn back into my works.
+                    <br>
+                    <br>
+                    I have a BS in Geographic Information Science from Ohio State University.
+                    During my time there, I also took some programming classes and got a basic
+                    understanding of two programming languages (Java and Python). Infact, the experience from those
+                    programming classes is what sparked my interest in software development and motivated me to enroll
+                    in We
+                    Can Code It bootcamp.
+                    <br>
+                    <br>
+                    I love watching anime, playing volleball and soccer, riding motorcycles, and spending time with
+                    my friends in general. I love meeting new people and making friends so please feel free to reach
+                    out and say hello!.
+                    <br>
+                    <br>
+                    "Sharing tea with a fascinating stranger is one of life's true delights" (Uncle Iroh)
+                </p>
+            </div>
+        </section>
+
+
+        <section class="experience" id="experience">
+            <div class="placeholder"></div>
+            <h1>Experiences</h1>
+            <div class="experience_sub_bodies">
+
+                <p1>Nationwide Insurance (Summer Internship), Columbus, OH (May, 2019 to September 2019)</p1>
+                <p2>Customer Service Representative</p2>
+                <li>Front-line customer support to address all aspects of insurance policy.</li>
+                <li>Entered communication details in System of Records of Nationwide Insurance after each call with
+                    customers.</li>
+                <li>Handled 45+ customer calls per shift and followed up with customers on the policy changes to their
+                    accounts.</li>
+                <br>
+                <p1>Kingswood Data Center (Summer Internship), Columbus, OH (Novermber 2017 to May 2018)</p1>
+                <p2>Computer Repairs and Imager</p2>
+                <li>Responsible for locating and sorting devices to be configured and intalling/updating operating
+                    systems.</li>
+                <li>Responsible for imaging school software into Chromebooks and desktops.</li>
+                <li>Debugged and fixed hardware and software related issues within the school districts.</li>
+
+            </div>
+        </section>
+
+        <section class="project" id="project">
+            <div class="placeholder"></div>
+            <h1>Projects</h1>
+
+            <div class="myworks_sub_bodies">
+                <ul>
+                    <li>
+                        <h2> Virtual Pet </h2>
+                        <div class="vp">
+                            <img src="images/virtual_pets.jfif" alt="">
+                            <p>A console application that lets users create and interact with their own virtual pets
+                                in a shelter.
+                            </p>
+                        </div>
+                        <p>Tools used: Java, TDD, OOP</p>
+                    </li>
+
+                    <li>
+                        <h2>Bus Route Analysis Tool</h2>
+                        <div class="vp">
+                            <img src="images/brat.PNG" alt="">
+                            <p>Python script tool to help users find and list facilities around a chosen transit stop.
+                            </p>
+                        </div>
+                        <p>Tools used: Java, TDD, OOP</p>
+
+                    </li>
+
+                    <li>
+                        <h2>Bank Application</h2>
+                        <div class="vp">
+                            <img src="images/virtual_bank.jpg" alt="">
+                            <p>A simple console application that lets users play around with a virutal bank account
+                            </p>
+                        </div>
+                        <p>Tools used: Java, TDD, OOP</p>
+
+                    </li>
+
+                    <li>
+                        <h2>Bank Application</h2>
+                        <div class="vp">
+                            <img src="images/virtual_bank.jpg" alt="">
+                            <p>A simple console application that lets users play around with a virutal bank account
+                            </p>
+                        </div>
+                        <p>Tools used: Java, TDD, OOP</p>
+
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="placeholder"></div>
+            <h1>Contacts</h1>
+            <div class="contacts_sub_bodies">
+                <div class="info">
+                    <p>Columbus, OH</p>
+                    <p>Phone: (614) 286 - 6058</p>
+                    <p>Email: Anishgh94@gmail.com</p>
+                </div>
+
+                <div class="form">
+                    <p> Send me a message :)</p>
+                    <form action="mailto:anishgh94@gmail.com" class="anish">
+                        <input type="text" placeholder=" First Name" required name="First Name">
+                        <input type="text" placeholder=" Last Name" required name="Last Name">
+                        <input type="text" placeholder="Email" required name="Email">
+                        <div class="bigtext">
+                            <textarea name="subject" placeholder="Write Something" cols="30" rows="10"></textarea>
+                        </div>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
 </body>
 
 </html>

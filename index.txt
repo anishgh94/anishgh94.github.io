@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish's Portfolio</title>
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="links">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="https://www.youtube.com" target="blank">RESUME</a></li>
+            </ul>
+        </nav>
+
+        <nav class = "side">
+            <ul>
+                <li>GH</li>
+                <li>LI</li>
+                <li>PO</li>
+            </ul>
+        </nav>
+
+        <section id = "home">
+            <div class = "hometexts">
+                <p>Hello, My name is</p>
+                <h1>Anish Ghimire</h1>
+                <p>I'm a full-stack software developer.</p>
+                <img src="picture.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="pageHeading">
+                <h1>About Me</h1>
+            </div>
+            <div class="texts">
+                <p>My journey into the computer world started when I took a simple hardware course back in my home country Nepal.
+                    Ever since that time, I have always wanted to work with computers. I'm passionate about learning new tools and 
+                    applying what I learn back into my works.
+                </p>
+                <br>
+                <p>I have a BS in Geographic Information Science from Ohio State University.
+                    During my time there, I also took some programming classes and got a basic 
+                    understanding of two programming languages (Java and Python). Infact, the experience from those
+                    programming classes is what sparked my interest in software development and motivated me to enroll in We
+                    Can Code It bootcamp.
+                </p>
+                <br>
+                <p>I love watching anime, playing volleball and soccer, riding motorcycles, and spending time with 
+                    my friends in general. I love meeting new people and making friends so please feel free to reach 
+                    out and say hello!. 
+                </p>
+                <br>
+                <p2>"Sharing tea with a fascinating stranger is one of life's true delights" (Uncle Iroh)</p2>
+            </div>
+            
+        </section>
+
+        <section id="experience">
+            <div class = "experience_class">
+            <div class="pageHeading">
+                <h1>My Past Work Experiences</h1>
+            </div>
+            <div class="texts">
+                <p1>Nationwide Insurance (Summer Internship), Columbus, OH (May, 2019 to September 2019)</p1>
+                <p2>Customer Service Representative</p2>
+                <p3>Front-line customer support to address all aspects of insurance policy. <br>
+                    Entered communication details in System of Records of Nationwide Insurance after each call with customers. <br>
+                    Handled 45+ customer calls per shift and followed up with customers on the policy changes to their accounts.
+                </p3>
+                </p>
+        
+        
+                <p1>Kingswood Data Center (Summer Internship), Columbus, OH (Novermber 2017 to May 2018)</p1>
+                <p2>Computer Repairs and Imager</p2>
+                <p3>Responsible for locating and sorting devices to be configured and intalling/updating operating systems. <br>
+                    Responsible for imaging school software into Chromebooks and desktops.<br>
+                    Debugged and fixed hardware and software related issues within the school districts.</p3>
+        
+            </div>
+        </div>
+        </section>
+
+        <section id="projects">
+            <div class="pageHeading">
+                <h1>Programming Projects</h1>
+            </div>
+            <div class="texts">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque hic quia sapiente culpa? Voluptatum
+                    magnam, pariatur quae quos, debitis at autem iure porro minus animi provident tempore, officiis
+                    quibusdam dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque hic quia sapiente
+                    culpa? Voluptatum
+                    magnam, pariatur quae quos, debitis at autem iure porro minus animi provident tempore, officiis
+                    quibusdam dolor.pariatur quae quos, debitis at autem iure porro minus animi provident tempore,
+                    officiis
+                    quibusdam dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque hic quia sapiente
+                    culpa? Voluptatum
+                    magnam, pariatur quae quos, debitis at autem iure porro minus animi provident tempore, officiis
+                    quibusdam dolor.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="pageHeading">
+                <h1>How you can contact me</h1>
+            </div>
+            <div class="texts">
+                <p>Anishgh94@gmail.com</p>
+                <p>(614) 286 - 6058</p>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+
+</html>
